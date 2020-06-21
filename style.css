@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    font-family:  'Krona One', sans-serif;
+}
+
+.element{
+    font-size: 5em;
+    border: 1pt solid black;
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.remove-table{
+    display: none;
+}
