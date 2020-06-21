@@ -76,6 +76,11 @@ function clicked(element){
     {
         checkWinner();
     }
+    if(turn>9)
+    {
+        document.querySelector("#winner-text").innerText="It's a draw!"
+        ocument.querySelector(".table").classList.add("remove-table");
+    }
 }
 
 const elements=document.querySelectorAll("button");
