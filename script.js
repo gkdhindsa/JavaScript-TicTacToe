@@ -58,7 +58,7 @@ function checkWinner(){
 }
 
 function clicked(element){
-    if(turn%2==0)
+    if(turn % 2 == 0)
     {
         char='X';
     }
@@ -72,13 +72,13 @@ function clicked(element){
         element.innerText=char;
         turn++;
     }
-    if(turn>=5)
+    if(turn >= 5)
     {
         checkWinner();
     }
     if(turn>9)
     {
-        document.querySelector("#winner-text").innerText="It's a draw!"
+        document.querySelector("#winner-text").innerText="It's a draw! Try again"
         ocument.querySelector(".table").classList.add("remove-table");
     }
 }
