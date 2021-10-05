@@ -1,11 +1,18 @@
 body{
     text-align: center;
     font-family:  'Krona One', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+html{
+    margin:1rem;
+    font-weight:bold;
 }
 
 .element{
-    font-size: 5em;
+    font-size: 2rem;
     border: 1pt solid black;
+    border-radius: 1rem;
     height: 1.5em;
     width: 1.5em;
 }
